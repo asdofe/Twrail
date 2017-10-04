@@ -31,3 +31,4 @@ npm-debug.log
 
 #babel cache
 .babel_cache/
+./bin/www
