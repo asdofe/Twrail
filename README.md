@@ -1,3 +1,4 @@
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 用這一個專案改的
 https://github.com/asdofe/node-react-webpack-sample
