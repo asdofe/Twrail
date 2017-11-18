@@ -6,6 +6,10 @@ https://github.com/asdofe/node-react-webpack-sample
 
 打算用Node當後端React當前端搞一個火車時刻表的webApp
 我先寫後端...
+---
+## 資料來源
+* [資料來源](https://data.gov.tw/dataset/6138)
+* [JSON格式說明](http://163.29.3.98/JSON/%E8%AA%AA%E6%98%8E/)
 
 ---
 
