@@ -22,11 +22,17 @@ const train_t_table= sequelize.define('train_time_table', {
   train_id: {
     type: Sequelize.INTEGER
   },
+  train_class: {
+    type: Sequelize.INTEGER
+  },
   arrive_t: {
     type: Sequelize.DATE
   },
   depart_t: {
     type: Sequelize.DATE  
+  },
+  station: {
+    type: Sequelize.STRING
   },
   order: {
     type: Sequelize.INTEGER
