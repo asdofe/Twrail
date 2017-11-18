@@ -40,4 +40,4 @@ const train_t_table= sequelize.define('train_time_table', {
 });
 
 // force: true will drop the table if it already exists
-train_t_table.sync({force: false});
+train_t_table.sync({force: true});
