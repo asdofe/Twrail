@@ -11,14 +11,15 @@ https://github.com/asdofe/node-react-webpack-sample
 
 ## RDB Schema
 
-|train_time_table|
-|---|
-|id:這張表的pk
-|train_id:車次編號
-|arr_t:到達時間
-|dep_t:離開時間
-|order:順序
-|route:保留欄位
-|hash:hash確認來自哪個檔案
-|update_t:資料插入的時間
+基本上用SequelizeJS這個ORM框架做和資料庫串聯的動作，所以資料表盡量簡潔。
 
+* train_time_table
+
+|field|type|
+|---|---|
+|train_id:車次編號|INTEGER|
+|arrive_t:到達時間|DATE|
+|depart_t:離開時間|DATE|
+|order:順序|INTEGER|
+|route:保留欄位，目前沒用|STRING|
+|source_hash:hash確認來自哪個檔案|STRING|
